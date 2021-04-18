@@ -151,7 +151,7 @@ h1, h2,h3,h4,h5 {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  background-image: url("../images/large/banner-lg.jpg");
+  background-image: url("../images/small/banner-sm.jpg");
 margin-bottom: 1rem;
   .filter {
     width: 100%;
@@ -432,6 +432,10 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+  .hero{
+    background-image: url("../images/medium/banner-md.jpg");
+
+  }
   .topBar {
     height: 100px;
   }
@@ -607,6 +611,10 @@ max-width: 80%;
 
 }
 @media screen and (min-width: $largeWidth) {
+  .hero{
+    background-image: url("../images/large/banner-lg.jpg");
+
+  }
   .flexColumn{
     display: flex;
     flex-direction: row;

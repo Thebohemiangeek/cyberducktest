@@ -34,11 +34,11 @@ const config = {
     injectAssets: false
 };
 
-// const jsFiles = [
-//     config.jsSrc + '/main.js', 
-//     config.jsSrc + '/another.js', 
-//     config.jsSrc + '/test.js'
-// ];
+ const jsFiles = [
+     config.jsSrc + '/main.js', 
+    config.jsSrc + '/another.js', 
+    config.jsSrc + '/test.js'
+ ];
 
 /*
  * Current date
