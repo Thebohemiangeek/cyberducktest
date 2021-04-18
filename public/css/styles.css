@@ -502,6 +502,8 @@ footer {
 @media screen and (min-width: 1000px) {
   .hero {
     background-image: url("../images/large/banner-lg.jpg"); }
+  .articleText {
+    padding-left: 0; }
   .flexColumn {
     display: flex;
     flex-direction: row; }
